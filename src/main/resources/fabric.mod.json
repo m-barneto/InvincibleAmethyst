@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "invincibleamethyst",
+  "version": "${version}",
+  "name": "InvincibleAmethyst",
+  "description": "I keep breaking my fucking buds AAAAAAAAAAAAAAHHHHHHHH.",
+  "authors": [
+    "Mattdokn"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/InvincibleAmethyst/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "me.mattdokn.invincibleamethyst.client.InvincibleAmethystClient"
+    ]
+  },
+  "mixins": [
+    "InvincibleAmethyst.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.12.12",
+    "fabric": "*",
+    "minecraft": "1.18.1"
+  }
+}
